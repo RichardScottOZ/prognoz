@@ -22,6 +22,7 @@ main is prognoz.py
 -  Boundaries.shp - lines to show on a plot. Just for picture.\
 \
 **The unique feature** of program is the wavelet decomposition preprocessing method. The main idea is in integral nature of geological fields: signals of different scales from most regional provinces to local orebodies are overlayed in geological field. Therefore, wavelets are used as an attempt to separate these signals and find the most valuable for prediction.\
+The program also offers feature selection methods: multicollinearity exclusion by r-Pearson values, univariate F-scores, RFE with logistic regression.\
 \
 **Output**: geotifs with predictions for each class, or binary classifications. Plots.\
 \
