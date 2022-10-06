@@ -22,7 +22,7 @@ main is prognoz.py
 -  Boundaries.shp - lines to show on a plot. Just for picture.\
 \
 **The unique feature** of program is the wavelet decomposition preprocessing method. The main idea is in integral nature of geological fields: signals of different scales from most regional provinces to local orebodies are overlayed in geological field. Therefore, wavelets are used as an attempt to separate these signals and find the most valuable for prediction.\
-The program also offers feature selection methods: multicollinearity exclusion by r-Pearson values, univariate F-scores, RFE with logistic regression.\
+The program also offers feature selection methods: multicollinearity exclusion by r-Pearson values, univariate F-scores, RFE with logistic regression.
 \
 **Output**: geotifs with predictions for each class, or binary classifications. Plots.\
 \
@@ -34,9 +34,9 @@ All requirements are listed in a file of the same name. But in short you need:
   - GDAL-3.4.3-cp39-cp39-win_amd64.whl
   - pyproj-3.3.1-cp39-cp39-win_amd64.whl
   - Shapely-1.8.2-cp39-cp39-win_amd64.whl
-  - Fiona-1.8.21-cp39-cp39-win_amd64.whl\
+  - Fiona-1.8.21-cp39-cp39-win_amd64.whl
 \
-If installing Fiona there will be errors, try to clear hash:
+If while installing Fiona you get an error, try to clear hash:
 pipenv --clear
 pipenv lock
 pipenv install <Fiona wheel-file>\
