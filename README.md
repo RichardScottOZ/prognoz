@@ -45,3 +45,4 @@ If while installing Fiona you get an error, try to clear hash:
      pipenv lock
      pipenv install Fiona-wheel-file
 launch main file - prognoz.py
+**Take a look at the folder "Screenshots".**
