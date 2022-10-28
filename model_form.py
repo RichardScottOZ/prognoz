@@ -15,8 +15,8 @@ from feature_selection import FeatureSelection
 class ModelForm(QWidget):
     """
     Class that creates a window, where user chooses:
-        - classes of deposits (depended variable)
-        - independed variables.
+        - classes of deposits (dependebt variable)
+        - independent variables.
     Features could be rated on a box-plot/bar plot. Either, selected
     with a FeatureSelection tool.
     
@@ -30,19 +30,19 @@ class ModelForm(QWidget):
     feature_selection, prediction_model
     
     Step 3. (optional)
-    It to change deposits classes selection, self.deposits_to_use is also 
+    If changing deposits classes selection, self.deposits_to_use also 
     will be changed, and a box-plot will be updated.
-    If make new split, in self.deposits_values will be changed Train column,
+    If making a new split, in self.deposits_values will be changed in Train column,
     then self.deposits_to_use  will be changed and a plot will be updated.
     
-    If to close a Model_Form create a new one from Main,
+    If closing Model_Form and creating a new one from Main,
     random split will be dropped (new split is created).
     
     Step 4. (optional)
     The tool FeatureSelection gets x, y col from a table 
     
     Step 5. (optional)
-    If to click button Execute, Main will create instance of PredictionModel 
+    If clicking button Execute, Main will create instance of PredictionModel 
     class and pass to it ModelForm instance to read parameters.
     """
     
