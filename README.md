@@ -32,7 +32,20 @@ geotifs with predictions for each class, or binary classifications. Plots.
 ## HOW TO LAUNCH
 The program is written in Spyder IDE on Python 3.9.10.\
 All requirements are listed in a file of the same name. But in short you need:
-- pip libraries: pandas numpy scikit-learn scikit-image PyWavelets PyQt5 pyqt5-tools spyder-kernels matplotlib seaborn pyqtgraph openpyxl
+- pip libraries: 
+    - pandas 
+    - numpy 
+    - scikit-learn 
+    - scikit-image 
+    - PyWavelets 
+    - PyQt5 
+    - pyqt5-tools 
+    - spyder-kernels 
+    - matplotlib 
+    - seaborn 
+    - pyqtgraph 
+    - openpyxl
+ 
 - wheel libraries [lfd.uci.edu](https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal):
   - GDAL-3.4.3-cp39-cp39-win_amd64.whl
   - pyproj-3.3.1-cp39-cp39-win_amd64.whl
