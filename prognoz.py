@@ -192,7 +192,7 @@ class PredictWidget(QMainWindow):
         self.label_2.setText(_translate("MainWindow", "Create prediction model"))
         self.create_model_btn.setText(_translate("MainWindow", "Create model"))
         self.label_3.setText(_translate("MainWindow", "Apply prediction model"))
-        self.apply_model_btn.setText(_translate("MainWindow", "Fase apply MLP model to selected"))
+        self.apply_model_btn.setText(_translate("MainWindow", "Fast apply MLP model to selected"))
         self.apply_advanced_btn.setText(_translate("MainWindow", "Apply advanced"))
         self.area_deposits_btn.setText(_translate("MainWindow", "Plot Area/Deposits vs. prob."))
         self.about_btn.setText(_translate("MainWindow", "About"))
