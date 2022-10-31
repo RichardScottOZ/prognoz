@@ -393,7 +393,7 @@ class FeatureSelection(QWidget):
         
         n_min = 1
         n_max = self.RFE_max_features_spin.value()
-        n_jobs = -1
+        n_jobs = 1
         
         # get the models to evaluate
         self.models = get_models(n_min, n_max, n_jobs)
